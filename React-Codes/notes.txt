@@ -1,0 +1,32 @@
+1. npm create vite@latest app-name
+select framework - React
+select variant - Javascript
+2. cd app-name
+3. npm install
+4. npm run dev
+
+JSX
+- Javascript Extension
+
+Vanilla JS
+var username = "Ravi";
+var div = document.querySelector("#div_1");
+var h1 = document.createElement("h1");
+h1.innerText = "Hello " + username;
+div.appendChild(h1);
+
+
+JSX
+<div id="div_1">
+    <h1>`Hello ${username}`</h1>
+</div>
+
+Button Click
+useState - Virtual DOM
+Render Array of Object using map function
+Components
+Props
+API Calls
+useEffect
+fetch - used for API Calls
+axios - 3rd party library for API Calls

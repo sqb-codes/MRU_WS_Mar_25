@@ -1,0 +1,8 @@
+.user {
+    width: 30%;
+    display: inline-block;
+}
+.user img {
+    width: 100%;
+    height: 300px;
+}
